@@ -1,0 +1,24 @@
+# Vivado / EDA Artifacts
+*.log
+*.jou
+*.pb
+*.backup.jou
+*.backup.log
+*.str
+xsim.dir/
+.Xil/
+dfx_runtime.txt
+vivado_project/*.cache/
+vivado_project/*.hw/
+vivado_project/*.ip_user_files/
+vivado_project/*.runs/
+vivado_project/*.sim/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,42 @@
+{
+  "digit_0": {
+    "predicted_class": 0,
+    "max_score": 16098,
+    "logits": [
+      16098,
+      3545,
+      2155,
+      -299,
+      -1848,
+      1424,
+      -1744,
+      728,
+      -279,
+      641
+    ],
+    "conv_min": 0,
+    "conv_max": 20,
+    "pool_min": 0,
+    "pool_max": 20
+  },
+  "digit_1": {
+    "predicted_class": 1,
+    "max_score": 18834,
+    "logits": [
+      7195,
+      18834,
+      533,
+      1405,
+      -680,
+      1175,
+      1878,
+      1743,
+      863,
+      -2631
+    ],
+    "conv_min": 0,
+    "conv_max": 23,
+    "pool_min": 0,
+    "pool_max": 23
+  }
+}

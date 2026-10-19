@@ -1,0 +1,38 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Mon Oct 19 11:42:19 2026
+| Host         : DESKTOP-M8GBQR1 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file syn/reports/utilization_hierarchical.rpt
+| Design       : cnn_top
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------------------+----------------+------------+------------+---------+------+------+--------+--------+------------+
+|          Instance         |     Module     | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++---------------------------+----------------+------------+------------+---------+------+------+--------+--------+------------+
+| cnn_top                   |          (top) |       2659 |       2643 |       0 |   16 | 2847 |      0 |     11 |         76 |
+|   (cnn_top)               |          (top) |         27 |         27 |       0 |    0 |  416 |      0 |      0 |          0 |
+|   u_conv_engine           |    conv_engine |        936 |        920 |       0 |   16 |  953 |      0 |      0 |         36 |
+|     u_line_buffer         |    line_buffer |         53 |         37 |       0 |   16 |  194 |      0 |      0 |          0 |
+|     u_pe_array            |       pe_array |        793 |        793 |       0 |    0 |  726 |      0 |      0 |         36 |
+|   u_fc_engine             |      fc_engine |       1467 |       1467 |       0 |    0 |  973 |      0 |     10 |         40 |
+|   u_pool_engine           |    pool_engine |        229 |        229 |       0 |    0 |  505 |      0 |      0 |          0 |
+|     gen_pool[0].u_maxpool |   maxpool_unit |         58 |         58 |       0 |    0 |  127 |      0 |      0 |          0 |
+|     gen_pool[1].u_maxpool | maxpool_unit_0 |         57 |         57 |       0 |    0 |  126 |      0 |      0 |          0 |
+|     gen_pool[2].u_maxpool | maxpool_unit_1 |         57 |         57 |       0 |    0 |  126 |      0 |      0 |          0 |
+|     gen_pool[3].u_maxpool | maxpool_unit_2 |         57 |         57 |       0 |    0 |  126 |      0 |      0 |          0 |
++---------------------------+----------------+------------+------------+---------+------+------+--------+--------+------------+
+
+
