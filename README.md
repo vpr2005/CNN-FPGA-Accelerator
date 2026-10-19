@@ -1,12 +1,5 @@
 # High-Performance CNN FPGA Accelerator
 
-[![Language: SystemVerilog](https://img.shields.io/badge/Language-SystemVerilog-blue.svg)](file:///d:/Projects/CCN_Acc/rtl)
-[![Language: Python](https://img.shields.io/badge/Language-Python%203-yellow.svg)](file:///d:/Projects/CCN_Acc/python)
-[![EDA Tool: AMD Vivado 2025.2](https://img.shields.io/badge/EDA-AMD%20Vivado%202025.2-red.svg)](file:///d:/Projects/CCN_Acc/syn)
-[![FPGA Target: Xilinx Artix-7](https://img.shields.io/badge/FPGA-Artix--7%20(xc7a100t)-orange.svg)](file:///d:/Projects/CCN_Acc/syn/reports/utilization.rpt)
-[![Verification: 100% Bit-Accurate](https://img.shields.io/badge/Verification-100%25%20Bit--Accurate-brightgreen.svg)](file:///d:/Projects/CCN_Acc/python/verify.py)
-[![Throughput: 145k FPS](https://img.shields.io/badge/Throughput-145%2C359%20FPS-green.svg)](file:///d:/Projects/CCN_Acc/docs/performance_report.md)
-
 An end-to-end, high-throughput, low-latency Hardware AI Accelerator for Convolutional Neural Networks (CNNs) implemented in **SystemVerilog**, verified against a golden **Python** reference model, and synthesized for **Xilinx FPGAs** using **AMD Vivado**.
 
 ---
@@ -193,6 +186,3 @@ xvlog -sv rtl\maxpool_unit.sv tb\tb_maxpool.sv && xelab tb_maxpool -s sim_pool &
 ```
 
 ---
-
-## 📜 License
-This project is released under the **MIT License**.
